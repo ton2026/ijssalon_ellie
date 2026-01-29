@@ -10,4 +10,7 @@ reclame_tekst = "Vandaag in de aanbieding: vanille-ijs, 1 liter - slechts €"
 reclame_tekst2 = reclame_tekst + aanbieding
 # print(reclame_tekst2)
 # vraag5
-print(reclame_tekst2[:62])
+# print(reclame_tekst2[:62])
+# vraag6
+reclame_tekst3 = (reclame_tekst2[:62])
+print(reclame_tekst3.upper())
