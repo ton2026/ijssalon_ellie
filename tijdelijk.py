@@ -19,3 +19,8 @@ aanbieding2= (reclame_tekst3[58:])
 print(aanbieding2)
 reclame_tekst4 = ["Vandaag", "in", "de", "aanbieding", "vanille-ijs,", "1 liter -", "slechts €",(aanbieding2)]
 print(reclame_tekst4)
+# vraag8
+for l in reclame_tekst4:
+    print (l)
+
+
