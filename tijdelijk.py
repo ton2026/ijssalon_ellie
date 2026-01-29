@@ -20,5 +20,12 @@ aanbieding2= (reclame_tekst3[58:])
 reclame_tekst4 = ["Vandaag", "in", "de", "aanbieding", "vanille-ijs,", "1 liter -", "slechts €",(aanbieding2)]
 # print(reclame_tekst4)
 # vraag8/9
-for l in reclame_tekst4:
-    print (l.lower())
+# for el in reclame_tekst4:
+#    print (el.lower())
+# vraag10
+for el in reclame_tekst4:
+    if len(el) < 5:
+        print (el.lower())
+    else:
+        print (el.upper())
+
